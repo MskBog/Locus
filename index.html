@@ -10,30 +10,34 @@
 		<link href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&display=swap" rel="stylesheet" />
 	</head>
 	<body>
-		<header class="header">
-			<div class="header__container container">
-				<a href="#" class="header__logo">
-					<img src="/img/logo.png" alt="" class="logo">
-					<div class="logo__text">Locus</div>
-				</a>
-				<nav class="header__menu">
-					<ul class="menu__list">
-						<li class="menu__item">
-							<a href="#" class="menu__link">Home</a>
+		<div class="wrap">
+			<header class="header container">
+				<div class="header__logo">
+					<a href="#" class="logo">
+						<img class="logo__img" src="/img/logo.png" alt="">
+						<strong class="logo__name">Locus</strong>
+					</a>
+				</div>
+
+				<div class="header__link">
+					<ul class="header__item">
+						<li class="item__link">
+							<a href="#" class="link link__activ">Home</a>
 						</li>
-						<li class="menu__item">
-							<a href="#" class="menu__link">Contact</a>
+						<li class="item__link">
+							<a href="#" class="link">Contact</a>
 						</li>
-						<li class="menu__item">
-							<a href="#" class="menu__link">Location</a>
+						<li class="item__link">
+							<a href="#" class="link">Location</a>
 						</li>
-						<li class="menu__item">
-							<a href="#" class="menu__link">About Us</a>
+						<li class="item__link">
+							<a href="#" class="link">About Us</a>
 						</li>
 					</ul>
-				</nav>
-				<a class="header__button" href="#">Sign Up</a>
-			</div>
-		</header>
+				</div>
+
+				<button class="button button__signup">Sign Up</button>
+			</header>
+		</div>
 	</body>
 </html>

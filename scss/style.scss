@@ -1,1 +1,68 @@
 @import "_nullstyle.scss";
+
+
+.wrap {
+	.container{
+		max-width: 1610px;
+		margin: 0 auto;
+		font-family: Poppins, serif;
+		font-size: 20px;
+	}
+	.header{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin-top: 85px;
+		.header__logo{
+			.logo {
+				.logo__name{
+					font-weight: 800;
+					font-size: 35px;
+					line-height: 52px;
+					color: #58A9A5;
+				}
+			}
+		}
+		.header__link {
+			
+			.header__item {
+				display: flex;
+				justify-content: space-between;
+				.item__link {
+					.link {
+						margin-right: 85px;
+						text-decoration: none;
+						font-weight: normal;
+						font-size: 25px;
+						line-height: 37px;
+						color: #404242;
+					}
+					.link__activ {
+						font-weight: bold;
+						font-size: 25px;
+						line-height: 37px;
+						color: #58A9A5;
+						border-bottom: 6px #FEC62D  ;
+						// background: #FEC62D;
+						// border-radius: 21px;
+						
+					}
+				}
+			}
+		}
+		.button {
+			padding: 21px 85px;
+			background: #58A9A5;
+			border-radius: 20px 20px 20px 0px;
+			font-weight: 500;
+			font-size: 25px;
+			line-height: 37px;
+			color: #FFFFFF;
+		}
+		.button__signup{
+			border-radius: 15px;
+			
+
+		}
+	}
+}
