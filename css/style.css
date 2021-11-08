@@ -91,6 +91,7 @@ h1, h2, h3, h4, h5, h6 {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-top: 85px;
+  margin-bottom: 170px;
 }
 
 .wrap .header .header__logo .logo .logo__name {
@@ -122,11 +123,67 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
   font-size: 25px;
   line-height: 37px;
+  position: relative;
   color: #58A9A5;
-  border-bottom: 6px #FEC62D;
 }
 
-.wrap .header .button {
+.wrap .header .header__link .header__item .item__link .link__activ::after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 48px;
+  height: 6px;
+  background-color: #FEC62D;
+  right: 0;
+  margin: 0 auto;
+  display: block;
+  border-radius: 21px;
+  top: 35px;
+}
+
+.wrap .header .button__signup {
+  border-radius: 15px;
+}
+
+.wrap .main .section__titel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.wrap .main .section__titel .section__description .heading {
+  max-width: 700px;
+  margin-bottom: 50px;
+  font-weight: 800;
+  font-size: 70px;
+  line-height: 105px;
+  color: #1C2323;
+}
+
+.wrap .main .section__titel .section__description .description__p {
+  max-width: 740px;
+  margin-bottom: 50px;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 45px;
+  color: #404242;
+}
+
+.wrap .main .section__titel .section__titel-img {
+  background: #CCF0E6;
+  border-radius: 120px;
+  border-radius: 30%/270px;
+}
+
+.wrap .main .section__titel .section__titel-img .titel__img {
+  width: 720px;
+}
+
+.button {
   padding: 21px 85px;
   background: #58A9A5;
   border-radius: 20px 20px 20px 0px;
@@ -134,8 +191,4 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 25px;
   line-height: 37px;
   color: #FFFFFF;
-}
-
-.wrap .header .button__signup {
-  border-radius: 15px;
 }
